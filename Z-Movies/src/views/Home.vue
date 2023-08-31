@@ -55,11 +55,7 @@
   <div class="home">
     <div class="feature-card">
       <router-link to="/movie/tt0428251">
-        <img src="https://m.media-amazon.com/images/I/91oaYOLSe3S._AC_UY218_.jpg" alt="venom" class="featured-img" />
-        <div class="detail">
-          <h3>Venom</h3>
-          <p>He never killed anyone until he died.</p>
-        </div>
+        <img src="https://cdn.dribbble.com/users/1032175/screenshots/9171102/media/5587beb47be46c1877862b3e7f812b75.png" alt="venom"  class="featured-img"  />
       </router-link>
     </div>
     
@@ -122,7 +118,7 @@ export default {
    .feature-card .featured-img {
       display: block;
       width: 100%;
-      height: 820px;
+      height: 700px;
       object-fit: center;
       position: relative;
       z-index: 0;
@@ -136,6 +132,8 @@ export default {
       background-color: rgba(0, 0, 0, 0.6);
       padding: 16px;
       z-index: 1;
+      display: flex;
+      justify-content: space-between;
  }
 
  .feature-card h3 {
@@ -158,13 +156,14 @@ export default {
 
  .movies-list .movie {
   max-width: 50%;
-  flex: 1 1 50%;
+  flex: 1 1 1 50%;
   padding: 16px 8px;
  }
  .movies-list .movie-link {
     display: flex;
     flex-direction: column;
     height: 100%;
+
  }
 
  .movies-list .product-image {
@@ -180,29 +179,33 @@ export default {
 
  .movies-list .type {
   position: absolute;
-  padding: 8px 16px;
-  background-color: #42B883;
+  padding: 3px 6px;
+  background-color: white;
   color: black;
-  bottom: 16px;
+  bottom: 2px;
   left: 0px;
   text-transform: capitalize;
   }
 
   .movies-list .detail {
-  background-color: #496583;
-  padding: 16px 8px;
-  flex: 1 1 100%;
+  background-color: red;
+  padding: 8px 4px;
+  flex: 1 1 50%;
   border-radius: 0px 0px 8px 8px;
  } 
  .movies-list .year {
-  color: #AAA;
+  color: white;
   font-size: 14px;
+  list-style-type: none;
+  text-decoration: none;
  }
 
   .movies-list h3 {
-    color: black;
+    color: white;
     font-weight: 600;
     font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
   }
 
 
@@ -322,6 +325,10 @@ header i:hover{
   transition: .4s;
   background: black;
   cursor: pointer;
+}
+.product-image img{
+  width: 300px;
+  height: 300px;
 }
 
 

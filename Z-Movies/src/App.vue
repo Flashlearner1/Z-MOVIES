@@ -14,6 +14,33 @@
   </main>
 
   <section class="body">
+
+    <section>
+      <div class="Trending">
+        <h1>Trending Movies 2023</h1>
+
+        <div class="image">
+          
+         <div class="img1">
+          <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/4795e221-f3e3-4357-84ec-839815327c4e/dg63lgl-7eac48e0-c505-4e19-8705-9d290a13c35c.png/v1/fit/w_512,h_512/the_monkey_king__2023____folder_icon_by_joyantodebnath_dg63lgl-375w-2x.png" alt="monkey king" width="400px" height="405px">
+          <span>Monkey King</span>
+         </div>
+
+         <div class="img1">
+          <img src="https://w0.peakpx.com/wallpaper/324/121/HD-wallpaper-new-2023-movie-john-wick-4-poster-movie.jpg" alt="John wick" class="zz22" width="350px" height="375px">
+          <span>John Wick 4</span>
+         </div>
+
+         <div class="img1">
+          <img src="https://w0.peakpx.com/wallpaper/434/100/HD-wallpaper-oppenheimer-movie-2023.jpg" alt="John wick" class="zz22" width="350px" height="375px">
+          <span>Oppenheimer</span>
+         </div>
+        
+        </div>
+        
+      </div>
+    </section>
+
     <div class="rectangle">
       <div class="left">
         <h1>It has never been easier to <br> watch free movies online.</h1>
@@ -204,6 +231,34 @@ footer .img:hover{
 }
 .right{
   margin-right: 80px;
+}
+.Trending{
+  background-color: rgb(219, 197, 69);
+  padding-bottom: 80px;
+}
+.Trending h1{
+  margin-left: 500px;
+  padding-top: 60px;
+  margin-bottom: 80px;
+  font-size: 40px;
+}
+.body .image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.body .image .zz22{
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.body .img1 span{
+  font-weight: 800;
+  display: block;
+  margin-left: 120px;
+  font-size: 20px;
 }
 
 </style>

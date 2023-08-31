@@ -9,7 +9,7 @@
       <h2>{{movie.Title}}</h2>
       <p>{{ movie.Year }} <span>{{ movie.Runtime }}</span> </p>
       <p> {{ movie.Genre }}</p>
-      <p class="imdb"> <img src="https://o.remove.bg/downloads/00d093c4-1cc7-49fc-af3f-0fe7d40d8cdc/png-transparent-logo-imdb-film-logan-lerman-miscellaneous-celebrities-text-thumbnail-removebg-preview.png" alt="">{{ movie.imdbRating }}</p>
+      <p class="imdb"> <img src="https://w7.pngwing.com/pngs/781/503/png-transparent-imdb-2016-hd-logo-thumbnail.png" alt="">{{ movie.imdbRating }}</p>
        <button class="Add"><a href="">Add to Wishlist</a></button>
        <p class="plot">{{ movie.Plot }}</p>
       <p class="direct">Directed By  <span>{{ movie.Director }}</span></p>
@@ -51,7 +51,7 @@ export default {
   .movie-details {
   padding: 16px;
   display: flex;
-  margin-top: 80px;
+  padding-top: 60px;
   background: black;
   }
 
